@@ -59,7 +59,6 @@ export const DataInput = ({ onDataParsed, onConfirmAnalysis }: DataInputProps) =
 ];
 
 
-  ];
 
   const processTextInput = useCallback((text: string) => {
     const lines = text.split('\n')
