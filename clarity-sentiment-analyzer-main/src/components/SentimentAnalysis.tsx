@@ -108,15 +108,31 @@ export const SentimentAnalysis = ({ comments, onAnalysisComplete }: SentimentAna
   const [currentStep, setCurrentStep] = useState("");
 
   const modelOptions = [
-  {
-    id: "cloud-api",
-    name: "Cloud API",
-    description: "Most accurate, requires internet connection",
-    icon: Globe,
-    speed: "Fast (~5s)",
-    privacy: "Data sent to API"
-  }
-];
+    {
+      id: "pattern-local",
+      name: "Local Pattern Matching",
+      description: "Fast, privacy-focused, runs locally",
+      icon: Shield,
+      speed: "Fast (~1s)",
+      privacy: "Local only"
+    },
+    {
+      id: "transformers-local",
+      name: "Local Transformer Model",
+      description: "Accurate, runs in browser with WebAssembly",
+      icon: Brain,
+      speed: "Medium (~30s)",
+      privacy: "Local only"
+    },
+    {
+      id: "cloud-api",
+      name: "Cloud API",
+      description: "Most accurate, requires internet connection",
+      icon: Globe,
+      speed: "Fast (~5s)",
+      privacy: "Data sent to API"
+    }
+  ];
 
 
 
