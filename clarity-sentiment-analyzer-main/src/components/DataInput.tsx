@@ -44,31 +44,28 @@ export const DataInput = ({ onDataParsed, onConfirmAnalysis }: DataInputProps) =
     “Good initiative! The amendments to LLP regulations make compliance easier.”
     “The detailed guidelines for e-filing help reduce errors significantly.”
     “I like that the portal explains the rationale behind each policy update.”
-    “The policy changes are well-structured and actionable.”  
+    “The policy changes are well-structured and actionable.”
     “MCA is making efforts to align corporate policies with global best practices.”
-    “The new policy on company audits is too complicated to understand.”
-    “I think these changes will create more paperwork than needed.”
-    “Some policy guidelines are vague and open to misinterpretation.”
-“The portal doesn’t provide enough examples for policy implementation.”
-“It’s frustrating that policy updates are not communicated clearly.”
-“Certain compliance deadlines seem unrealistic for small businesses.”
-“The latest amendments make filing forms unnecessarily complex.”
-“It’s difficult to understand the technical terms used in the policy document.”
-“Policies are frequently updated, causing confusion among companies.”
-“I expected more clarity on penalties for non-compliance.”
-“The explanation for new financial regulations is too brief.”
-“Some policies feel biased towards larger corporations.”
-“I had to consult multiple sources to understand the policy fully.”
-“Downloading policy documents sometimes fails on the portal.”
-“Notifications for policy updates are often delayed.”
-“The formatting of policy PDFs is inconsistent and hard to read.”
-“The policy seems reasonable, but I need more time to assess its impact.”
-“I understand the purpose of the policy, though some areas are unclear.”
-“The portal provides the document, but a summary would be helpful.”
-“I’m neutral on this amendment; it may benefit some companies, not others.”
-“The policy is fine, but examples or case studies would make it better.”
-“I need to see how enforcement works before forming an opinion.”
-“Overall, the policy is informative, though it could be more user-friendly.”
+    “The portal doesn’t provide enough examples for policy implementation.”
+    “It’s frustrating that policy updates are not communicated clearly.”
+    “Certain compliance deadlines seem unrealistic for small businesses.”
+    “The latest amendments make filing forms unnecessarily complex.”
+    “It’s difficult to understand the technical terms used in the policy document.”
+    “Policies are frequently updated, causing confusion among companies.”
+    “I expected more clarity on penalties for non-compliance.”
+    “The explanation for new financial regulations is too brief.”
+    “Some policies feel biased towards larger corporations.”
+    “I had to consult multiple sources to understand the policy fully.”
+    “Downloading policy documents sometimes fails on the portal.”
+    “Notifications for policy updates are often delayed.”
+    “The formatting of policy PDFs is inconsistent and hard to read.”
+    “The policy seems reasonable, but I need more time to assess its impact.”
+    “I understand the purpose of the policy, though some areas are unclear.”
+    “The portal provides the document, but a summary would be helpful.”
+    “I’m neutral on this amendment; it may benefit some companies, not others.”
+    “The policy is fine, but examples or case studies would make it better.”
+    “I need to see how enforcement works before forming an opinion.”
+    “Overall, the policy is informative, though it could be more user-friendly.”
   ];
 
   const processTextInput = useCallback((text: string) => {
