@@ -108,7 +108,7 @@ export const SentimentAnalysis = ({ comments, onAnalysisComplete }: SentimentAna
   const [currentStep, setCurrentStep] = useState("");
 
   const modelOptions = [
-    {
+    /*{
       id: "pattern-local",
       name: "Local Pattern Matching",
       description: "Fast, privacy-focused, runs locally",
@@ -123,7 +123,7 @@ export const SentimentAnalysis = ({ comments, onAnalysisComplete }: SentimentAna
       icon: Brain,
       speed: "Medium (~30s)",
       privacy: "Local only"
-    },
+    },*/
     {
       id: "cloud-api",
       name: "Cloud API",
