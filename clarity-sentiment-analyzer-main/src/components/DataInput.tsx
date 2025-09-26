@@ -38,34 +38,26 @@ export const DataInput = ({ onDataParsed, onConfirmAnalysis }: DataInputProps) =
   const [treatAsSingleTokens, setTreatAsSingleTokens] = useState(false);
 
   const demoData = [
-    "The new policy on CSR compliance is very clear and easy to follow.",
-    "I appreciate the transparency MCA provides in publishing updated policies.",
-    "This policy simplifies the process for start-ups to raise capital.",
-    "Good initiative! The amendments to LLP regulations make compliance easier.",
-    "The detailed guidelines for e-filing help reduce errors significantly.",
-    "I like that the portal explains the rationale behind each policy update.",
-    "The policy changes are well-structured and actionable.",
-    "MCA is making efforts to align corporate policies with global best practices.",
-    "The portal doesn’t provide enough examples for policy implementation.",
-    "It’s frustrating that policy updates are not communicated clearly.",
-    "Certain compliance deadlines seem unrealistic for small businesses.",
-    "The latest amendments make filing forms unnecessarily complex.",
-    "It’s difficult to understand the technical terms used in the policy document.",
-    "Policies are frequently updated, causing confusion among companies.",
-    "I expected more clarity on penalties for non-compliance.",
-    "The explanation for new financial regulations is too brief.",
-    "Some policies feel biased towards larger corporations.",
-    "I had to consult multiple sources to understand the policy fully.",
-    "Downloading policy documents sometimes fails on the portal.",
-    "Notifications for policy updates are often delayed.",
-    "The formatting of policy PDFs is inconsistent and hard to read.",
-    "The policy seems reasonable, but I need more time to assess its impact.",
-    "I understand the purpose of the policy, though some areas are unclear.",
-    "The portal provides the document, but a summary would be helpful.",
-    "I’m neutral on this amendment; it may benefit some companies, not others.",
-    "The policy is fine, but examples or case studies would make it better.",
-    "I need to see how enforcement works before forming an opinion.",
-    "Overall, the policy is informative, though it could be more user-friendly."
+  "The e-consultation app is very user-friendly and makes submitting feedback easy.",
+  "I appreciate the quick processing of submissions through this portal.",
+  "The interface is intuitive and tracking my submissions is simple.",
+  "This portal improves transparency in the consultation process.",
+  "I like that clear guidelines are provided for participating.",
+  "It’s convenient to use both on desktop and mobile.",
+  "The app’s design feels modern and professional.",
+  "Notifications and updates are timely and helpful.",
+  "Sometimes the app loads slowly, which is frustrating.",
+  "Certain features are confusing and not easy to navigate.",
+  "It would be better if more file types were supported for uploads.",
+  "Mobile interface could be improved for easier access.",
+  "The portal works as expected, though navigation could be smoother.",
+  "The app provides the necessary functions, but some guidance is missing.",
+  "It’s functional but could benefit from a more responsive design.",
+  "Overall, it serves its purpose, though the process is a bit slow.",
+  "I didn’t face major issues, but the portal isn’t very intuitive either.",
+  "It’s okay for submissions, but enhancements could improve the experience."
+];
+
 
   ];
 
