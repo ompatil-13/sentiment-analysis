@@ -38,24 +38,16 @@ export const DataInput = ({ onDataParsed, onConfirmAnalysis }: DataInputProps) =
   const [treatAsSingleTokens, setTreatAsSingleTokens] = useState(false);
 
   const demoData = [
-  "The e-consultation app is very user-friendly and makes submitting feedback easy.",
-  "I appreciate the quick processing of submissions through this portal.",
-  "The interface is intuitive and tracking my submissions is simple.",
-  "This portal improves transparency in the consultation process.",
-  "I like that clear guidelines are provided for participating.",
-  "It’s convenient to use both on desktop and mobile.",
-  "The app’s design feels modern and professional.",
-  "Notifications and updates are timely and helpful.",
-  "Sometimes the app loads slowly, which is frustrating.",
-  "Certain features are confusing and not easy to navigate.",
-  "It would be better if more file types were supported for uploads.",
-  "Mobile interface could be improved for easier access.",
-  "The portal works as expected, though navigation could be smoother.",
-  "The app provides the necessary functions, but some guidance is missing.",
-  "It’s functional but could benefit from a more responsive design.",
-  "Overall, it serves its purpose, though the process is a bit slow.",
-  "I didn’t face major issues, but the portal isn’t very intuitive either.",
-  "It’s okay for submissions, but enhancements could improve the experience."
+  "The healthcare system needs significant improvement in patient care quality.",
+    "Waiting times at the emergency department are extremely long and frustrating.",
+    "The staff was very professional and caring during my treatment.",
+    "Medical bills are too expensive and not transparent enough.",
+    "The new electronic health records system is much more efficient.",
+    "Communication between doctors and nurses could be better coordinated.",
+    "The hospital facilities are clean and well-maintained overall.",
+    "Appointment scheduling system is difficult to navigate and use.",
+    "The pharmacy staff provided excellent customer service and support.",
+    "More specialists are needed to reduce waiting times significantly."
 ];
 
 
