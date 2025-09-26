@@ -107,7 +107,17 @@ export const SentimentAnalysis = ({ comments, onAnalysisComplete }: SentimentAna
   const [selectedModel, setSelectedModel] = useState("pattern-local");
   const [currentStep, setCurrentStep] = useState("");
 
-  const [selectedModel, setSelectedModel] = useState("cloud-api");
+  const modelOptions = [
+  {
+    id: "cloud-api",
+    name: "Cloud API",
+    description: "Most accurate, requires internet connection",
+    icon: Globe,
+    speed: "Fast (~5s)",
+    privacy: "Data sent to API"
+  }
+];
+
 
 
   const selectedModelInfo = modelOptions.find(m => m.id === selectedModel);
